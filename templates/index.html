@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Salary Predictor</title>
+<style>
+body {
+  background-image: linear-gradient(to top right,pink,purple);
+  text-align: center;
+  color: Red;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  }
+    .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: auto;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #555555;
+}
+.button1:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+ input {
+      width: 220px;
+      
+      margin: 0.5rem auto;
+      border: 2px solid ;
+      padding: 8px;
+      background: transparent;
+      border-radius: 25px;
+      outline: none;
+   }
+   ::placeholder {
+      color: #000;
+   }
+   .header{
+   padding:0px;
+   text-align: center;
+   background:none;
+   color:black;
+   font-size: 25px;
+   }
+
+}
+</style>
+</head>
+<body>
+
+	<!--- to show header--->
+	<div class="header">
+    	
+		<img src="static/images/logo.png" class="w3-border w3-padding" alt=" logo saying salary predictor" style="float:middle" width="150" height="135">
+		<h1> SALARY PREDICTOR </h1> 
+		<h4> Salary Predictor is a Machine Learning model which predict the salary using linear regression </h4>
+	</div>
+	
+
+<div class="login">
+
+	<!--- get inputs from user in order to predict -->
+
+	<center>
+		<form action="{{url_for('predict')}} "method="post">
+			 
+
+			<h1 style="color:black;"> Enter Your Work experience(in days) </h1>
+
+			<input type="text" name="Work Experience" placeholder="Work Experience" align="left" required="required"/>
+			
+			
+			
+	<!---code to show button--->
+
+
+	<div class="button_cont" align="center"><a class="button_css" rel="nofollow noopener">
+	<button type="submit" class=" btn btn-primary btn-block btn-large button button1" style="position: absolute;bottom: 7%;right: 2%;left: 2%" ><strong>PREDICT</strong></button></a>
+	</div>
+</form>
+</center>
+
+<!--- show predicted output using ML model --->
+<div>
+	<center>
+<h1 style="color:black;">{{prediction_text}}</h1>
+	</center>
+</div>
+
+
+	
+
+
+</body>
+</html> 
