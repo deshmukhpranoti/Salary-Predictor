@@ -1,2 +1,1 @@
-! [logo] [1]
-[1]: static/images/logo.png "Salary Predictor, a Machine Learning model for predicting salary. "
+![logo](https://github.com/deshmukhpranoti/Salary-Predictor/tree/master/static/images)
