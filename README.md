@@ -1,1 +1,1 @@
-![logo](https://github.com/deshmukhpranoti/Salary-Predictor/tree/master/static/images)
+![logo](https://github.com/deshmukhpranoti/Salary-Predictor/blob/master/static/images/logo.png)
