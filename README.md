@@ -15,3 +15,7 @@ Salary Predictor is a Machine Learning Model which predict the salary based upon
 ## Back End
 * Flask
 # 💻 Web page Screenshot
+<img src="https://github.com/deshmukhpranoti/Salary-Predictor/blob/master/static/images/sreenshot.png" width="700" height="400">
+
+## ✔️Deployment
+The Deployment of the app is done using herokuapp.
