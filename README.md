@@ -7,7 +7,7 @@
 <br>
 Salary Predictor is a Machine Learning Model which predict the salary based upon work experience you have using Linear Regression Algorithm. The model has an accuracy of 89%.
 
-# 👩‍💻Built With
+# 👩‍💻 Built With
 
 ## Front End
 * HTML
